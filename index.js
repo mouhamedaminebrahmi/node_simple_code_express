@@ -1,0 +1,15 @@
+// Import required modules
+const express = require("express");
+
+// Create an Express application
+const app = express();
+
+// Define a route
+app.get("/", (req, res) => {
+  res.send("hello express test 1");
+});
+
+// Start the server
+app.listen(3000, () => {
+  console.log("Server is running on port 3000");
+});
