@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 // Define a route
-app.get("/", (req, res) => {
+app.get("/simple", (req, res) => {
   res.send("simple");
 });
 
